@@ -73,12 +73,16 @@ fun StudentIdCard() {
                 Image(
                     painter = painterResource(id = R.drawable.ndu_logo),
                     contentDescription = null,
-                    modifier = Modifier.size(240.dp).offset(x = (-60).dp, y = 40.dp)
+                    modifier = Modifier
+                        .size(240.dp)
+                        .offset(x = (-60).dp, y = 40.dp)
                 )
                 Image(
                     painter = painterResource(id = R.drawable.ndu_logo),
                     contentDescription = null,
-                    modifier = Modifier.size(240.dp).offset(x = 60.dp, y = 40.dp)
+                    modifier = Modifier
+                        .size(240.dp)
+                        .offset(x = 60.dp, y = 40.dp)
                 )
             }
 
@@ -207,10 +211,15 @@ fun StudentIdCard() {
 
 @Composable
 fun UgandaFlag(modifier: Modifier = Modifier) {
-    Column(modifier = modifier.clip(RoundedCornerShape(4.dp)).border(1.dp, Color.White, RoundedCornerShape(4.dp))) {
+    Column(modifier = modifier
+        .clip(RoundedCornerShape(4.dp))
+        .border(1.dp, Color.White, RoundedCornerShape(4.dp))) {
         val colors = listOf(Color.Black, Color.Yellow, Color.Red, Color.Black, Color.Yellow, Color.Red)
         colors.forEach { color ->
-            Box(modifier = Modifier.weight(1f).fillMaxWidth().background(color))
+            Box(modifier = Modifier
+                .weight(1f)
+                .fillMaxWidth()
+                .background(color))
         }
     }
 }
@@ -232,7 +241,10 @@ fun Barcode(modifier: Modifier = Modifier) {
                 else -> 1.5.dp
             }
             if (index % 2 == 0) {
-                Box(modifier = Modifier.width(barWidth).fillMaxHeight().background(Color.Black))
+                Box(modifier = Modifier
+                    .width(barWidth)
+                    .fillMaxHeight()
+                    .background(Color.Black))
             } else {
                 Spacer(modifier = Modifier.width(1.5.dp))
             }
