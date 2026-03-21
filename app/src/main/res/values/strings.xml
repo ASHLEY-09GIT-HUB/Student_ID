@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">individual_student_ID</string>
+    <string name="student_name">OKOL BEN</string>
+    <string name="programme">BSc. Information Technology</string>
+    <string name="reg_number">21/U/1234/E/PS</string>
+    <string name="issue_date">ISSUE: 01/2023</string>
+    <string name="expiry_date">EXPIRY: 01/2025</string>
+    <string name="ndu_logo_description">NDU Logo</string>
+    <string name="student_photo_description">Student Photo</string>
+</resources>
