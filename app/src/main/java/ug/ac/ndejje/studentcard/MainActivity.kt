@@ -48,8 +48,8 @@ fun StudentCard() {
     // Custom University Color
     val nduMaroon = Color(0xFF6C171C)
 
-    /* 1. EXTERNAL CONTAINER (The Card)
-       Using ElevatedCard to provide a physical "card-like" look with shadows.
+    /* 1. The external container (The Card)
+       Used ElevatedCard to provide a physical card-ish look with shadows.
        The aspect ratio 1.58f is the standard CR80 (credit card size) ratio.
     */
     ElevatedCard(
@@ -63,7 +63,7 @@ fun StudentCard() {
             containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(0.3f)
         )
     ) {
-        /* 2. THE MASTER CANVAS (Box)
+        /* 2. The Master (Box)
            We use a Box because we need to layer elements on top of each other:
            Bottom Layer: Background colors and watermarks
            Middle Layer: Logos and Flag
@@ -75,7 +75,6 @@ fun StudentCard() {
                 .background(Color.White)
         ) {
 
-            // --- DECORATIVE BACKGROUND ELEMENTS ---
 
             // Maroon Header Background (Top 25% of the card)
             Box(
@@ -122,8 +121,6 @@ fun StudentCard() {
                 )
             }
 
-            // --- HEADER BRANDING ---
-
             // University Badge (Top Left)
             Image(
                 painter = painterResource(id = R.drawable.ndejje_badge),
@@ -148,7 +145,7 @@ fun StudentCard() {
                     .height(45.dp)
             )
 
-            // --- MAIN STUDENT DATA (The Info Column) ---
+            // MAIN STUDENT DATA (The Info Column)
             Column(
                 modifier = Modifier
                     .fillMaxSize()
