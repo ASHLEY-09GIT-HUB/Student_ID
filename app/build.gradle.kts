@@ -4,7 +4,11 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "ug.ac.ndejje.studentcard"
+=======
+    namespace = "ug.ac.ndejje.individual_student_id"
+>>>>>>> 98b6728541e0bf5339485a581fae5c43930c48d1
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,7 +16,11 @@ android {
     }
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId = "ug.ac.ndejje.studentcard"
+=======
+        applicationId = "ug.ac.ndejje.individual_student_id"
+>>>>>>> 98b6728541e0bf5339485a581fae5c43930c48d1
         minSdk = 24
         targetSdk = 36
         versionCode = 1

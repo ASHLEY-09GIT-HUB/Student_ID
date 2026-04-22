@@ -22,5 +22,11 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "StudentCard"
 include(":app")
+=======
+rootProject.name = "individual_student_ID"
+include(":app")
+ 
+>>>>>>> 98b6728541e0bf5339485a581fae5c43930c48d1

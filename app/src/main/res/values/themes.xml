@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <style name="Theme.StudentCard" parent="android:Theme.Material.Light.NoActionBar" />
+=======
+    <style name="Theme.Individual_student_ID" parent="android:Theme.Material.Light.NoActionBar" />
+>>>>>>> 98b6728541e0bf5339485a581fae5c43930c48d1
 </resources>
