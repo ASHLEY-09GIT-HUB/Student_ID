@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">StudentCard</string>
-    <string name="student_name">MUWANJI RONALD BAWANDE</string>
+    <string name="app_name">Student Card</string>
+    <string name="student_name">TENDO ASHLEY</string>
     <string name="programme">BSc in Computing Science</string>
-    <string name="reg_number">24/2/306/W/592</string>
+    <string name="reg_number">24/2/306/WJ/007</string>
     <string name="issue_date">01/02/2026</string>
     <string name="expiry_date">01/02/2029</string>
 </resources>
